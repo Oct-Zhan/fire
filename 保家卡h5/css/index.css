@@ -1,0 +1,439 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        list-style: none;
+    }
+    
+    .box1 {
+        height: 310px;
+        background-image: url("../images/bannerTop.png");
+        background-size: cover;
+        background-position: center top;
+        position: relative;
+        border-bottom: 12px solid #f1f1f4;
+    }
+    
+    .box1 .banner-top {
+        height: 78px;
+        margin-left: 45px;
+        margin-right: 45px;
+        padding-top: 54px;
+        padding-bottom: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .box1 .banner-top .text-left {
+        width: 406px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .text-left img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .text-left .lable {
+        width: 306px;
+        display: flex;
+        justify-content: space-between;
+        line-height: 78px;
+    }
+    
+    .name {
+        font-size: 32px;
+        font-weight: bold;
+        color: #6a542d;
+    }
+    
+    .numble {
+        font-size: 30px;
+        color: #6a542d;
+        margin-top: 2px;
+    }
+    
+    .box1 .banner-top .text-right p {
+        font-size: 24px;
+        color: #a69270;
+        line-height: 78px;
+    }
+    
+    .box1 .banner-bottom {
+        height: 74px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    
+    .banner-bottom img {
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+    }
+    
+    .banner-bottom div {
+        font-size: 26px;
+        color: #797979;
+        margin-left: 10px;
+        margin-right: 20px;
+        line-height: 40px;
+    }
+    
+    .banner-bottom div span {
+        color: #dfc89a;
+    }
+    
+    .tips {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .tips button {
+        width: 140px;
+        height: 64px;
+        border: none;
+        border-radius: 90px 0px 0px 90px;
+        background: linear-gradient(to right, #fb965a, #f16e40);
+        font-size: 26px;
+        color: #ffffff;
+        line-height: 64px;
+        margin: 0 auto;
+    }
+    /* box2 */
+    
+    .box2 {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f9f9fb;
+    }
+    
+    .box2 .title {
+        margin: 0 auto;
+    }
+    
+    .box2 .title {
+        margin: 60px 0px 54px 0px;
+    }
+    
+    .box2 .title div {
+        font-size: 44px;
+        color: #a6803b;
+    }
+    
+    .box2 .title div span {
+        font-weight: bold;
+        color: #9b7229;
+    }
+    
+    .box2 .form-box {
+        height: 452px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        background-color: #ffffff;
+        margin: 0px 22px 0px 22px;
+        box-shadow: 2px 2px 20px #ebecf2;
+    }
+    
+    .form input {
+        outline: none;
+        font-size: 32px;
+        color: #333;
+        height: 110px;
+        width: 85%;
+        border: 1px solid #dddddd;
+        padding: 0 30px;
+        margin: 30px 0px 0px 22px;
+    }
+    
+    input::placeholder {
+        color: #999999;
+    }
+    
+    input::-webkit-input-placeholder {
+        color: #999999;
+    }
+    
+    input::-moz-placeholder {
+        color: #999999;
+    }
+    
+    .box2 .text-box {
+        /* width: 702px; */
+        width: 100%;
+        margin: 30px 0px 40px 0px;
+    }
+    
+    .box2 .text-box label {
+        font-size: 26px;
+        color: #999999;
+    }
+    
+    .box2 .text-box div span {
+        font-size: 26px;
+        color: #333333;
+        line-height: 40px;
+    }
+    
+    .box2 button {
+        width: 655px;
+        height: 102px;
+        background-color: #efc88b;
+        border: none;
+        border-radius: 8px;
+        font-size: 38px;
+        color: #925e1e;
+        margin: 54px 22px 72px 22px;
+    }
+    
+    .box2 .text-tips {
+        margin-bottom: 60px;
+    }
+    
+    .box2 .text-tips p {
+        margin-top: 20px;
+        font-size: 26px;
+        color: #666666;
+        line-height: 40px;
+        text-align: left;
+    }
+    
+    .box2 .text-tips .title-x {
+        font-size: 30px !important;
+    }
+    
+    .box2 .text-box .checkbox {
+        height: 70px;
+        color: #b5b5b5;
+        position: relative;
+    }
+    
+    .box2 .text-box .checkbox div {
+        position: absolute;
+        top: 0px;
+        left: 36px;
+        font-size: 26px;
+        line-height: 45px;
+    }
+    
+    .box2 .text-box .btn {
+        width: 702px;
+        margin: 0 auto;
+    }
+    
+    .checkbox input {
+        width: 22px;
+        height: 22px;
+    }
+    
+    .checkbox label {
+        font-size: 18px;
+        color: #999999;
+        position: relative;
+        top: -5px;
+    }
+    
+    #checkbox1 {
+        border-radius: 10px;
+        visibility: hidden;
+        font-size: 26px;
+    }
+    
+    #checkbox1+label {
+        width: 20px;
+        height: 20px;
+        display: block;
+        background-color: #ffffff;
+        top: -28px;
+        /* left: 16px; */
+        border: 2px solid #b5b5b5;
+        border-radius: 2px;
+        cursor: pointer;
+        overflow: hidden;
+    }
+    
+    #checkbox1:checked+label::before {
+        content: " ";
+        width: 22px;
+        height: 22px;
+        background: url("../images/icon_bingo.png") no-repeat;
+        background-size: 75%;
+        display: block;
+        color: #b5b5b5;
+        text-align: center;
+        font-weight: bold;
+        line-height: 20px;
+        position: relative;
+        top: 4px;
+        left: 2px;
+    }
+    
+    @media screen and (max-width: 750px) {
+        .box1 {
+            height: 10.3333rem;
+            border-bottom: 0.4rem solid #f1f1f4;
+        }
+        .box1 .banner-top {
+            height: 2.6rem;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+            padding-top: 1.8rem;
+            padding-bottom: 2.3333rem;
+        }
+        .box1 .banner-top .text-left {
+            width: 13.5333rem;
+        }
+        .text-left img {
+            width: 2.6667rem;
+            height: 2.6667rem;
+        }
+        .text-left .lable {
+            width: 10.2rem;
+            line-height: 2.6rem;
+        }
+        .name {
+            font-size: 1.0667rem;
+        }
+        .numble {
+            font-size: 1rem;
+            margin-top: 0.0667rem;
+        }
+        .box1 .banner-top .text-right p {
+            font-size: 0.8rem;
+            line-height: 2.6rem;
+        }
+        .box1 .banner-bottom {
+            height: 2.4667rem;
+            margin-left: 0.8rem;
+            margin-right: 0.8rem;
+        }
+        .banner-bottom img {
+            width: 1rem;
+            height: 1rem;
+            margin-top: 0.1667rem;
+        }
+        .banner-bottom div {
+            font-size: 0.8667rem;
+            margin-left: 0.3333rem;
+            margin-right: 0.6667rem;
+            line-height: 1.3333rem;
+        }
+        .tips button {
+            width: 4.6667rem;
+            height: 2.1333rem;
+            border-radius: 3rem 0rem 0rem 3rem;
+            background: linear-gradient(to right, #fb965a, #f16e40);
+            font-size: 0.8667rem;
+            line-height: 2.1333rem;
+            margin: 0 auto;
+        }
+        .box2 .title {
+            margin: 2rem 0rem 1.8rem 0rem;
+        }
+        .box2 .title div {
+            font-size: 1.4667rem;
+        }
+        .box2 .form-box {
+            height: 15.0667rem;
+            border-radius: 0.3333rem;
+            margin: 0rem 0.7333rem 0rem 0.7333rem;
+            box-shadow: 0.0667rem 0.0667rem 0.6667rem #ebecf2;
+        }
+        .form input {
+            font-size: 1.0667rem;
+            height: 3.6667rem;
+            padding: 0 1rem;
+            margin: 1rem 0rem 0rem 0.7333rem;
+        }
+        input::placeholder {
+            color: #999999;
+        }
+        input::-webkit-input-placeholder {
+            color: #999999;
+        }
+        input::-moz-placeholder {
+            color: #999999;
+        }
+        .box2 .text-box {
+            width: 23.4rem;
+            margin: 1rem 0rem 1.3333rem 0rem;
+        }
+        .box2 .text-box label {
+            font-size: 0.8667rem;
+        }
+        .box2 .text-box div span {
+            font-size: 0.8667rem;
+            line-height: 1.3333rem;
+        }
+        .box2 button {
+            width: 21.8333rem;
+            height: 3.4rem;
+            background-color: #efc88b;
+            border: none;
+            border-radius: 0.2667rem;
+            font-size: 1.2667rem;
+            color: #925e1e;
+            margin: 1.8rem 0.7333rem 2.4rem 0.7333rem;
+        }
+        .box2 .text-box .btn {
+            width: 23.4rem;
+        }
+        .box2 .text-tips {
+            margin-bottom: 2rem;
+        }
+        .box2 .text-tips p {
+            margin-top: 0.6667rem;
+            font-size: 0.8667rem;
+            line-height: 1.3333rem;
+        }
+        .box2 .text-tips .title-x {
+            font-size: 1rem !important;
+        }
+        .box2 .text-box .checkbox {
+            height: 2.3333rem;
+        }
+        .box2 .text-box .checkbox div {
+            position: absolute;
+            top: 0rem;
+            left: 1.2rem;
+            font-size: 0.8667rem;
+            line-height: 1.5rem;
+        }
+        .checkbox input {
+            width: 0.7333rem;
+            height: 0.7333rem;
+        }
+        .checkbox label {
+            font-size: 0.6rem;
+            top: -0.1667rem;
+        }
+        #checkbox1 {
+            border-radius: 0.3333rem;
+            font-size: 0.8667rem;
+        }
+        #checkbox1+label {
+            width: 0.6667rem;
+            height: 0.6667rem;
+            top: -0.9333rem;
+            border: 0.0667rem solid #b5b5b5;
+            border-radius: 0.0667rem;
+        }
+        #checkbox1:checked+label::before {
+            content: " ";
+            width: 0.7333rem;
+            height: 0.7333rem;
+            background-size: 75%;
+            line-height: 0.6667rem;
+            top: 0.1333rem;
+            left: 0.0667rem;
+        }
+    }

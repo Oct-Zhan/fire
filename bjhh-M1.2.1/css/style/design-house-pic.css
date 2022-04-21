@@ -1,0 +1,167 @@
+.design-title-tab {
+    border-bottom: 1.5px solid #d2d4de;
+}
+
+.design-title-tab a {
+    font-size: 22px;
+    color: #999999;
+    line-height: 84px;
+    margin-right: 68px;
+    position: relative;
+}
+
+.title-tab-active {
+    font-size: 26px !important;
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+.title-tab-active::after {
+    content: "";
+    display: inline-block;
+    width: 75px;
+    height: 3px;
+    background-color: #de0010;
+    border-radius: 2px;
+    position: absolute;
+    bottom: -14px;
+    left: 13px;
+}
+
+
+/* ------ 列表样式 ------*/
+
+.house-pic-main {
+    margin-top: 22px;
+}
+
+.house-pic-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.house-pic-box {
+    width: 320px;
+}
+
+.house-main-con .house-pic {
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+.house-pic-box a {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.house-main-con .house-pic img {
+    width: 100%;
+}
+
+@media screen and (min-width:760px) and (max-width:974px) {
+    .design-title-tab {
+        border-bottom: 0.05rem solid #d2d4de;
+    }
+    .design-title-tab a {
+        font-size: 0.7333rem;
+        line-height: 2.8rem;
+        margin-right: 2.2667rem;
+    }
+    .title-tab-active {
+        font-size: 0.8667rem !important;
+    }
+    .title-tab-active::after {
+        width: 2.5rem;
+        height: 0.1rem;
+        border-radius: 0.0667rem;
+        bottom: -0.4667rem;
+        left: 0.4333rem;
+    }
+    .house-pic-main {
+        padding: 0 1rem;
+    }
+    .house-pic-box {
+        width: 10.6667rem;
+    }
+    .house-pic-box a {
+        margin-bottom: 1rem;
+    }
+    .house-main-con .house-pic {
+        width: 100%;
+        border-radius: 0.1667rem;
+        margin-bottom: 0.5333rem;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:750px) {
+    .design-title-tab {
+        border-bottom: 0.05rem solid #d2d4de;
+    }
+    .design-title-tab a {
+        font-size: 0.7333rem;
+        line-height: 2.8rem;
+        margin-right: 2.2667rem;
+    }
+    .title-tab-active {
+        font-size: 0.8667rem !important;
+    }
+    .title-tab-active::after {
+        width: 2.5rem;
+        height: 0.1rem;
+        border-radius: 0.0667rem;
+        bottom: -0.4667rem;
+        left: 0.4333rem;
+    }
+    .house-pic-main {
+        padding: 0 1rem;
+    }
+    .house-pic-box {
+        width: 10.6667rem;
+    }
+    .house-pic-box a {
+        margin-bottom: 1rem;
+    }
+    .house-main-con .house-pic {
+        width: 100%;
+        border-radius: 0.1667rem;
+        margin-bottom: 0.5333rem;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .design-title-tab {
+        border-bottom: 0.05rem solid #d2d4de;
+    }
+    .design-title-tab a {
+        font-size: 0.7333rem;
+        line-height: 2.8rem;
+        margin-right: 2.2667rem;
+    }
+    .title-tab-active {
+        font-size: 0.8667rem !important;
+    }
+    .title-tab-active::after {
+        width: 2.5rem;
+        height: 0.1rem;
+        border-radius: 0.0667rem;
+        bottom: -0.4667rem;
+        left: 0.4333rem;
+    }
+    .house-pic-main {
+        padding: 0 1rem;
+    }
+    .house-pic-box {
+        width: 10.6667rem;
+    }
+    .house-pic-box a {
+        margin-bottom: 1rem;
+    }
+    .house-main-con .house-pic {
+        width: 100%;
+        border-radius: 0.1667rem;
+        margin-bottom: 0.5333rem;
+    }
+}

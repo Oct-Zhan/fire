@@ -1,0 +1,62 @@
+/*------ null ------*/
+
+.main-null {
+    margin-top: 260.001px;
+}
+
+.main-null img {
+    display: block;
+    width: 490px;
+    height: 320px;
+    margin: 0 auto;
+}
+
+.main-null p {
+    text-align: center;
+    font-size: 30px;
+    color: #9caec6;
+    opacity: 0.8;
+    margin: 0 auto;
+}
+
+@media screen and (min-width:760px) and (max-width:974px) {
+    .main-null {
+        margin-top: 8.6667rem;
+    }
+    .main-null img {
+        width: 16.3333rem;
+        height: 10.6667rem;
+    }
+    .main-null p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:750px) {
+    .main-null {
+        margin-top: 8.6667rem;
+    }
+    .main-null img {
+        width: 16.3333rem;
+        height: 10.6667rem;
+    }
+    .main-null p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .main-null {
+        margin-top: 8.6667rem;
+    }
+    .main-null img {
+        width: 9.6667rem;
+        height: 10.6667rem;
+    }
+    .main-null p {
+        font-size: 1rem;
+    }
+}
+
+
+/* null 结束 */

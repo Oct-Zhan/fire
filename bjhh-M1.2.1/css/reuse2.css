@@ -1,0 +1,149 @@
+/* 重置样式 */
+
+p,
+dl,
+dd,
+dt,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background: #fff;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    margin: 0 auto;
+    background: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+    margin: 0px;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+input {
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+a {
+    color: #333;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.hide,
+.none {
+    display: none;
+}
+
+.clear:after {
+    clear: both;
+    content: "​";
+    display: block;
+    height: 0;
+}
+
+.clear {
+    *zoom: 1
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right !important;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+span {
+    display: inline-block;
+}
+
+html {
+    font-size: 18px;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.txtR {
+    text-align: right;
+}
+
+.btN {
+    border-bottom: none !important;
+}
+
+.none {
+    display: none !important;
+}
+
+.img-none {
+    display: none;
+}
+
+.bsN {
+    box-shadow: none !important;
+}
+
+.clf {
+    color: #fff !important;
+}
+
+.header-white span {
+    color: #fff;
+}
+
+.bg-white {
+    background: #fff;
+}
+
+.bg-dark {
+    background: #f7f7f7;
+}
